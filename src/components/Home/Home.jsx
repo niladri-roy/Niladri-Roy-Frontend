@@ -17,9 +17,9 @@ const Home = () => {
             “Unlocking the Possibilities of Code,<br/>Crafting Digital Solutions with Precision”
           </div>
         </div>
-        <div className="home-image">
+        {/* <div className="home-image">
           <img src={homeImage} alt="Home" />
-        </div>
+        </div> */}
       </div>
     </div>
   )
