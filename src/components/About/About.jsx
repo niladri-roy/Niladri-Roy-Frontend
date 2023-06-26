@@ -65,9 +65,9 @@ const About = () => {
         {linksList}
       </div>
     </div>
-    <button className="container button-container">
-      <a href="">Download Resume</a>
-    </button>
+    {/* <button className="container button-container">
+      <a href="/">Download Resume</a>
+    </button> */}
     </>
   )
 }
