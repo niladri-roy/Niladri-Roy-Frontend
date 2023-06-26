@@ -18,40 +18,62 @@
     grid-row: 1 / span 2;
 }
 
-.educationList{
-
+.skill-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.institution-place{
-    color: #FEFEFE;
-    font-size: 22.5px;
-    font-family: Poppins;
-    font-weight: 800;
-    line-height: 130%;
-    letter-spacing: 3.375px;
+.skill {
+    display: flex;
+    align-items: center;
 }
 
-.course-year{
-    color: #CFCFCF;
-    font-size: 21px;
-    font-family: Poppins;
-    font-weight: 500;
-    letter-spacing: 1.05px;
+.skill-name {
+    margin-right: 10px;
+    font-size: 20px;
+    width: 150px;
+    /* Add additional styles for the skill icon */
 }
 
-.score{
-    color: rgba(204, 204, 204, 0.80);
-    font-size: 18px;
-    font-family: Poppins;
-    font-weight: 600;
-    line-height: 130%;
-    letter-spacing: 0.9px;
+.skill-bar {
+    width: 200px;
+    height: 10px;
+    border: #ffffff solid 1px;
+    border-radius: 50px;
 }
 
-.education{
-    display: inline-flex;
-    padding: 4.5px 0px 124.5px 0px;
+.skill-level {
+    height: 100%;
+    background-color: #CE1212;
+    border-radius: 5px;
+}
+
+.skill-percentage {
+    margin-left: 10px;
+}
+
+.skills-section{
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 45px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-section, .links-section{
+    flex: 1;
+}
+
+.link {
+    height: 70px;
+}
+
+.link-name{
+    margin-left: 10px;
 }

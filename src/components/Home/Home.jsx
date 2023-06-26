@@ -1,5 +1,5 @@
 import React from 'react'
-// import homeImage from './homeImg.png'
+import homeImage from './homeImg.png'
 import './Home.css'
 
 const Home = () => {
@@ -7,19 +7,19 @@ const Home = () => {
     <div className='content container'>
       <div className="home-content">
         <div className="introduction">
-          <div className="name">
+          <div className="h1">
             Niladri Roy
           </div>
-          <div className="designation">
-            Aspiring<span>&nbsp;Software&nbsp;</span>and&nbsp;<span>Full Stack Developer</span>
+          <div className="h3">
+            Aspiring<i className='h2'> Software</i> and <i className='h2'>Full Stack Developer</i>
           </div>
-          <div className="quote">
+          <div className="p">
             “Unlocking the Possibilities of Code,<br/>Crafting Digital Solutions with Precision”
           </div>
         </div>
-        {/* <div className="home-image">
+        <div className="home-image">
           <img src={homeImage} alt="Home" />
-        </div> */}
+        </div>
       </div>
     </div>
   )
