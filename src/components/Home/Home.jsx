@@ -11,7 +11,7 @@ const Home = () => {
             Niladri Roy
           </div>
           <div className="h3">
-            Aspiring<i className='h2'> Software</i> and <i className='h2'>Full Stack Developer</i>
+            Aspiring<span className='h2'> Software</span> and <span className='h2'>Full Stack Developer</span>
           </div>
           <div className="p">
             “Unlocking the Possibilities of Code,<br/>Crafting Digital Solutions with Precision”
