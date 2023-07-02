@@ -1,0 +1,49 @@
+/* Customized Scrollbar Styles */
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--black-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--paragraph-color);
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: var(--heading-3-color);
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--paragraph-color) var(--black-color);
+}
+
+body::-moz-scrollbar {
+    width: 0.5rem;
+}
+
+body::-moz-scrollbar-track {
+    background-color: var(--black-color);
+}
+
+body::-moz-scrollbar-thumb {
+    background-color: var(--paragraph-color);
+    border-radius: 5px;
+}
+
+body::-moz-scrollbar-thumb:hover {
+    background-color: var(--heading-3-color);
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--paragraph-color) var(--black-color);
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--paragraph-color) var(--black-color);
+}
