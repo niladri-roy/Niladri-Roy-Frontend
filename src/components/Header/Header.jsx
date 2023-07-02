@@ -33,7 +33,7 @@ const Header = () =>
   }
 
   return (
-    <div className='navbar'>
+    <div className='navbar show'>
       <div className="navbar-content container">
         <div className="h1 logo">
           Niladri Roy

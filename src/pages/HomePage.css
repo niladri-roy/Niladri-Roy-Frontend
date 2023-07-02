@@ -1,0 +1,12 @@
+/* Initially hide the sections with opacity 0 */
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+/* Show the sections with opacity 1 when they are in the viewport */
+.visible {
+    filter: blur(0);
+    opacity: 1;
+}

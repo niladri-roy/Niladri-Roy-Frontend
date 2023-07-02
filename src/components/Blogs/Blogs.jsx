@@ -1,18 +1,9 @@
-import React from 'react';
+import {React} from 'react';
 import image from './blog.jpg';
 import './Blogs.css';
-import ReactMarkdown from 'react-markdown';
+
 
 const Blogs = () => {
-
-  const markdown = `
-  # My Blog Post
-  ## My Blog Post
-  ### My Blog Post
-  #### My Blog Post
-  `;
-
-  const markdownEdit = <ReactMarkdown>{markdown}</ReactMarkdown>
 
   return (
     <div className='content container'>
@@ -37,8 +28,7 @@ const Blogs = () => {
             </div>
           </div>
         </div>
-      </div>
-      {markdownEdit}     
+      </div>  
     </div>
   )
 }

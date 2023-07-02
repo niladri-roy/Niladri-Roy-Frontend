@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    z-index: 1000;
 }
 
 .navbar-content {
@@ -87,4 +88,8 @@
     .nav-elements.active {
         width: 50%
     }
+}
+
+.show{
+    opacity: 1;
 }

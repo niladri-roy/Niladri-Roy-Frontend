@@ -5,6 +5,7 @@
     font-family: 'Poppins';
     font-style: normal;
     background-color: #1d1d1e;
+    font-size: var(--base-font-size);
 }
 
 
@@ -14,46 +15,58 @@
     color: #ffffff;
 }
 
-
-.container {
-    margin: 0 250px; 
-}
-
 @media (max-width: 640px) {
     .container {
         margin: 0 30px;
+    }    
+    *{
+        font-size: 12px;
     }
 }
 
 @media (min-width: 641px) and (max-width: 720px) {
     .container {
         margin: 0 50px;
+    }    
+    *{
+        font-size: 12px;
     }
 }
 
 @media (min-width: 721px) and (max-width: 1280px) {
     .container {
         margin: 0 100px;
+    }    
+    *{
+        font-size: 14px;
     }
 }
 
-@media (min-width: 1281px) and (max-width: 1440px) {
+@media (min-width: 1281px)/*(max-width: 1440px)*/ { 
     .container {
-        margin: 0 200px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    *{
+        font-size: 16px;
     }
 }
 
-@media (min-width: 1441px) {
+/* @media (min-width: 1441px) {
     .container {
-        max-width: 940px;
-        margin: 0 auto;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+    *{
+        font-size: 16px;
     }
-}
+} */
  
 
 .content{
-    padding-top: 100px;
-    text-align: justify
+    padding: 100px 0;
 }
 
 .heading{
@@ -103,7 +116,7 @@
     --font-weight-regular: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
-    --font-weight-extrabold: 800;
+    --font-weight-extrabold: 700;
     --base-font-size: 16px;
 
     /*Text Color*/
@@ -118,7 +131,7 @@
 
 }
 
-.h1{
+h1, .h1{
     font-size: 1.8rem;
     font-weight: var(--font-weight-extrabold);
     font-family: var(--font-family);
@@ -126,37 +139,57 @@
     letter-spacing: 0.35rem;
     line-height: var(--line-height);
     text-transform: uppercase;
-    word-spacing: 0.2rem;
 }
 
-.h2{
+h2, .h2{
     font-size: 1.5rem;
     font-weight: var(--font-weight-semibold);
     font-family: var(--font-family);
     color: var(--heading-2-color);
     letter-spacing: 0.25rem;
     line-height: var(--line-height);
-    word-spacing: 0.2rem;
 }
 
-.h3{
+h3, .h3{
     font-size: 1.5rem;
     font-weight: var(--font-weight-medium);
     font-family: var(--font-family);
     color: var(--heading-3-color);
     letter-spacing: 0.25rem;
     line-height: var(--line-height);
-    word-spacing: 0.2rem;
 }
 
-.p{
+h4, p, .p{
     font-size: 1.1rem;
     font-weight: var(--font-weight-regular);
     font-family: var(--font-family);
     color: var(--paragraph-color);
     letter-spacing: 0.2rem;
-    word-spacing: 0.2rem;
     line-height: var(--line-height);
-    text-align: left;
 }
 
+
+
+
+
+
+
+
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--black-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--paragraph-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--heading-3-color);
+}
