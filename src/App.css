@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins';
     font-style: normal;
-    background-color: #1d1d1e;
+    background-color: var(--grey-3);
     font-size: var(--base-font-size);
     color: #ffffff;
     font-size: 16px;
@@ -20,7 +20,7 @@
     padding: 20px 20px;
     background-color: var(--grey-3);
     border-radius: 15px;
-    box-shadow: 0 4px 4px var(--grey-2);
+    box-shadow: 0 4px 18px var(--grey-1);
 }
 
 .sub-content{
@@ -60,7 +60,7 @@
  
 
 .content{
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .tags{
@@ -106,17 +106,17 @@
     --line-height: 150%;
 
     /*Grey Shades*/
-    --grey-1: #1d1d1e;
-    --grey-2: #28282a;
-    --grey-3: #323234;
-    --grey-4: #3d3d3e;
-    --grey-5: #474748;
-    --grey-6 : #525252;
-    --grey-7 : #5c5c5c;
-    --grey-8 : #666666;
-    --grey-9 : #707070;
-    --grey-10 : #838386;
-
+    /*0a0a0a 141414 1f1f1f 292929 333333 3d3d3d 474747 525252 5c5c5c 666666*/
+    --grey-1: #000000;
+    --grey-2: #141414;
+    --grey-3: #1f1f1f;
+    --grey-4: #292929;
+    --grey-5: #333333;
+    --grey-6: #3d3d3d;
+    --grey-7: #474747;
+    --grey-8: #525252;
+    --grey-9: #5c5c5c;
+    --grey-10: #666666;
 
 }
 
@@ -169,3 +169,25 @@ h4, p, .p{
     }
 }
 
+
+.bg-gy-1 {background-color: var(--grey-1)}
+.bg-gy-2 {background-color: var(--grey-2)}
+.bg-gy-3 {background-color: var(--grey-3)}
+.bg-gy-4 {background-color: var(--grey-4)}
+.bg-gy-5 {background-color: var(--grey-5)}
+.bg-gy-6 {background-color: var(--grey-6)}
+.bg-gy-7 {background-color: var(--grey-7)}
+.bg-gy-8 {background-color: var(--grey-8)}
+.bg-gy-9 {background-color: var(--grey-9)}
+.bg-gy-10{background-color: var(--grey-10)}
+
+.sd-gy-1 {box-shadow: 0 4px 18px var(--grey-1)}
+.sd-gy-2 {box-shadow: 0 4px 18px var(--grey-2)}
+.sd-gy-3 {box-shadow: 0 4px 18px var(--grey-3)}
+.sd-gy-4 {box-shadow: 0 4px 18px var(--grey-4)}
+.sd-gy-5 {box-shadow: 0 4px 18px var(--grey-5)}
+.sd-gy-6 {box-shadow: 0 4px 18px var(--grey-6)}
+.sd-gy-7 {box-shadow: 0 4px 18px var(--grey-7)}
+.sd-gy-8 {box-shadow: 0 4px 18px var(--grey-8)}
+.sd-gy-9 {box-shadow: 0 4px 18px var(--grey-9)}
+.sd-gy-10{box-shadow: 0 4px 18px var(--grey-10)}

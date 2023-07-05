@@ -97,12 +97,12 @@ const skill = sortedSkills.map((category, index) => {
                         <div className="skill-logo">
                             <img src={skill.logo} alt= {skill.name} />
                         </div>
-                        <div className="skill-logo-bg sub-content">
+                        <div className="skill-logo-bg bg-gy-5 sd-gy-1">
                             <div className="wave" style={{
                                     marginTop: `${90 - ((skill.proficiency / 10) * 11)}%`,
                                     backgroundColor: skill.color,
                                 }}>
-                                <svg className='sub-content' xmlns="http://www.w3.org/2000/svg" viewBox = "0 0 1440 320" >
+                                <svg className='bg-gy-5' xmlns="http://www.w3.org/2000/svg" viewBox = "0 0 1440 320" >
                                     <path fill={skill.color} id="waveClip" fill-opacity = '1' d="M0,96L48,85.3C96,75,192,53,288,74.7C384,96,480,160,576,181.3C672,203,768,181,864,170.7C960,160,1056,160,1152,149.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L0,320Z"></path>
                                 </svg>
                             </div>
@@ -121,12 +121,10 @@ const skill = sortedSkills.map((category, index) => {
 
     return (
         <div className='MySkills'>
-            <div className='container'>
-                <div className="h1 hidden">Skills</div>
-                <div className="skills-grid-container">
-                    {skill}
-                </div>
-            </div>
+			<div className="h1 hidden">Skills</div>
+			<div className="skills-grid-container">
+				{skill}
+			</div>
         </div>
     )
 }

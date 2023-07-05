@@ -12,8 +12,8 @@ const About = () => {
           <div className="p">
             I am an ambitious Software Developer with expertise in Full Stack Development. I excel in crafting innovative solutions, utilizing technologies like React, JavaScript, Express, Node.js, and MongoDB. My proficiency extends to UI/UX design, where I create captivating interfaces. With a strong foundation in Data Structures and Algorithms, I am committed to continuous learning and delivering exceptional results.
           </div>
-        </div>    
-      <SkillsSection />
+        <SkillsSection />
+      </div>    
     </div>
   )
 }
