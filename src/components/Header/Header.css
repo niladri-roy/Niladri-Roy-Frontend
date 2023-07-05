@@ -1,7 +1,6 @@
 .navbar {
     height: 80px;
     position: fixed;
-    background-color: #1d1d1e;
     display: flex;
     justify-content: center;
     align-items: center;
