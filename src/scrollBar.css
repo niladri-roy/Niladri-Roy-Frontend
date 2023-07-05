@@ -1,4 +1,5 @@
 /* Customized Scrollbar Styles */
+/*Chrome Safari*/
 body::-webkit-scrollbar {
     width: 0.5rem;
 }
@@ -21,6 +22,7 @@ body {
     scrollbar-color: var(--paragraph-color) var(--black-color);
 }
 
+/*Fire-Fox*/
 body::-moz-scrollbar {
     width: 0.5rem;
 }

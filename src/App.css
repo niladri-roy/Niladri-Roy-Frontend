@@ -6,13 +6,25 @@
     font-style: normal;
     background-color: #1d1d1e;
     font-size: var(--base-font-size);
+    color: #ffffff;
+    font-size: 16px;
 }
 
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.sub-container {
+    padding: 20px 20px;
+    background-color: var(--grey-3);
+    border-radius: 15px;
+    box-shadow: 0 4px 4px var(--grey-2);
+}
 
-.App{
-    background-color: #1d1d1e;
-    color: #ffffff;
+.sub-content{
+    background-color: var(--grey-3);
 }
 
 @media (max-width: 640px) {
@@ -21,6 +33,9 @@
     }    
     *{
         font-size: 12px;
+    }
+    .home-image img{
+        max-width: 260px;
     }
 }
 
@@ -31,6 +46,7 @@
     *{
         font-size: 12px;
     }
+
 }
 
 @media (min-width: 721px) and (max-width: 1280px) {
@@ -41,50 +57,10 @@
         font-size: 14px;
     }
 }
-
-@media (min-width: 1281px)/*(max-width: 1440px)*/ { 
-    .container {
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }    
-    *{
-        font-size: 16px;
-    }
-}
-
-/* @media (min-width: 1441px) {
-    .container {
-        max-width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-    }    
-    *{
-        font-size: 16px;
-    }
-} */
  
 
 .content{
     padding: 100px 0;
-}
-
-.heading{
-    text-transform: uppercase;
-    margin-bottom: 30px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 130%;
-    /* identical to box height, or 49px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.15em;
-
-    color: #FEFEFE;
 }
 
 .tags{
@@ -129,6 +105,19 @@
     /*Line Height*/
     --line-height: 150%;
 
+    /*Grey Shades*/
+    --grey-1: #1d1d1e;
+    --grey-2: #28282a;
+    --grey-3: #323234;
+    --grey-4: #3d3d3e;
+    --grey-5: #474748;
+    --grey-6 : #525252;
+    --grey-7 : #5c5c5c;
+    --grey-8 : #666666;
+    --grey-9 : #707070;
+    --grey-10 : #838386;
+
+
 }
 
 h1, .h1{
@@ -168,5 +157,15 @@ h4, p, .p{
     line-height: var(--line-height);
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
 
+@media (max-width: 900px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
 

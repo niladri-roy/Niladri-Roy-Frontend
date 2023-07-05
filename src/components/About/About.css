@@ -1,9 +1,4 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: 700px 400px;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-}
+/* 
 
 .small-1 {
     grid-column: 1 / span 1;
@@ -33,7 +28,7 @@
     margin-right: 10px;
     font-size: 20px;
     width: 150px;
-    /* Add additional styles for the skill icon */
+    /* Add additional styles for the skill icon 
 }
 
 .skill-bar {
@@ -77,3 +72,21 @@
 .link-name{
     margin-left: 10px;
 }
+
+.skill-logo{
+
+    width: 56px;
+    height: 56px;
+    background-color: transparent;
+}
+
+.skill-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.wave-animation {
+    background-color: #abcdef;
+}
+ */

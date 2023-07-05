@@ -1,24 +1,10 @@
-.home-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* flex-wrap: wrap; */
+.home-image{
+    text-align: right;
 }
 
-@media screen and (max-width: 900px) {
-    .home-content{
-        flex-wrap: wrap;
-    }
-}
-
-.introduction{
+.introduction {
     display: flex;
     flex-direction: column;
     gap: 22.5px;
 }
 
-
-.home-image{
-    width: 324.75px;
-    height: 463.5px;
-}
