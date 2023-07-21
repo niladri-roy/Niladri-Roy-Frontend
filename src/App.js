@@ -8,9 +8,11 @@ import Projects from './components/Projects/Projects';
 import Blogs from './components/Blogs/Blogs';
 import Contact from './components/Contact/Contact';
 import HomePage from './pages/HomePage';
+import { ReactLenis } from '@studio-freight/react-lenis';
 
 const App = () => {
   return (
+    <ReactLenis root>
       <div className='App'>
         <Header/>
         <Routes>
@@ -21,6 +23,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
+    </ReactLenis>
   );
 };
 
