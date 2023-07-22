@@ -12,7 +12,7 @@ import { ReactLenis } from '@studio-freight/react-lenis';
 
 const App = () => {
   return (
-    <ReactLenis root>
+    <ReactLenis root options={{ lerp: 0.05 }}>
       <div className='App'>
         <Header/>
         <Routes>
